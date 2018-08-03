@@ -1,0 +1,484 @@
+
+body{
+    
+    background: #bfbfbf;
+}
+#header-wrapper {
+	width: 100%;
+	height: 730px;
+	margin-top: -60px;
+	padding-top:160px;
+	text-align:center;
+    border: 0px solid blue;
+    
+}
+#header-wrapper h1 {
+	color: #FFFFFF;
+	font-size: 4em;
+	font-weight: 400;
+	margin: 1em 0;
+}
+#header-wrapper h2 {
+	color: #fff;
+	font-family: 'Open Sans', sans serif;
+	font-size: 2em;
+	font-weight: normal;
+	margin: 0.5em 0;
+	text-shadow: 1px 1px 1px #333333;
+}
+#header-wrapper.header-slider {
+	background: #444 url(https://www.pixelstalk.net/wp-content/uploads/images1/Blur-Background-Simple-Images-Wallpaper-Of-Nature-Download.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    text-align: center;
+}
+#main-flexslider ul.slides li p {
+	font-size: 52px;
+	text-transform: uppercase;
+	position: relative;
+	margin-bottom: 2px;
+	text-align: center;
+	line-height: 1;
+	color:#fff;
+}
+#main-flexslider.flexslider {
+		margin:0;
+		background:none;
+		border:none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none; 
+    margin: auto;
+    
+}
+
+
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* ============================================================
+  SECTIONS
+============================================================ */
+
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+    text-align: center;
+  
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+    text-align: center;
+}
+
+section.module.content {
+  padding: 40px 0;
+    border: 0px solid blue;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    -webkit-clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
+clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
+}
+
+section.module.parallax1 {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("https://scontent.fdel9-1.fna.fbcdn.net/v/t1.0-9/15822540_1388052904540820_2654803854489618196_n.jpg?_nc_cat=0&oh=81dc8802f75801f0fb205a2df31355eb&oe=5C10D743");
+}
+section.module.parallax-2 {
+  background-image: url("http://quotesideas.com/wp-content/uploads/2015/09/29708-bodybuilding-quotes-motivation.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("https://quotefancy.com/media/wallpaper/1600x900/18846-Frank-Ocean-Quote-Work-hard-in-silence-let-your-success-be-your.jpg");
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+
+
+
+
+/*Portfolio===============================*/
+#portfolio {  
+    margin: 1rem 0;
+    -webkit-column-count: 3; 
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1rem;
+    -moz-column-gap: 1rem;
+    column-gap: 1rem;
+    -webkit-column-width: 33.33333333333333%;
+    -moz-column-width: 33.33333333333333%;
+    column-width: 33.33333333333333%;
+}
+#portfolio-container .tile { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+
+}
+#portfolio-container .tile:hover { 
+
+}
+
+#portfolio-container .scale-anm {
+  transform: scale(1);
+}
+
+
+#portfolio-container p{ 
+  padding:10px; 
+  border-bottom: 1px #ccc dotted; 
+  text-decoration: none; 
+  font-family: lato; 
+  text-transform:uppercase; 
+  font-size: 12px; 
+  color: #333; 
+  display:block; 
+  float:left;
+}
+
+#portfolio-container p:hover { 
+  cursor:pointer; 
+  background: #333; 
+  color:#eee; }
+
+#portfolio-container .tile img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  
+}
+
+#portfolio-container .btn {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: normal;
+    padding: 5px 10px;
+    margin: 0;
+    height: auto;
+    border: 1px solid;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    color: #555;
+    background-color: rgba(0, 0, 0, 0);
+    align-self: center;
+}
+
+
+
+#portfolio-container .btn:hover {
+  text-decoration: none;color:#fff;background-color:#FF1351;
+}
+
+.demo{ background: #3d3d3d; 
+border: 1px solid blue;
+}
+.testimonial{
+    padding: 35px 50px;
+    margin: 0 20px 30px;
+    border-radius: 0 70px 0 70px;
+    border: 5px solid #ffc33c;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    margin-top: 20px;
+    height: 450px;
+    
+}
+.testimonial .pic{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .title{
+    display: block;
+    margin: 0 0 7px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffc33c;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.testimonial .post{
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.testimonial .description{
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+}
+.owl-theme .owl-controls{ margin-top: 0; }
+.owl-theme .owl-controls .owl-page span{
+    background: #fff;
+    opacity: 0.8;
+    transition: all 0.3s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span{ background: #ffc33c; }
+#portfolio-container .btn:focus {
+  outline: none;
+  border-color: var(--darken-2);
+  box-shadow: 0 0 0 3px var(--darken-3);
+}
+/*Portfolio===============================*/
+
+
+#portfolio-container .active {
+   background-color:#FF1351;color:#fff;
+    outline: 0;
+    box-shadow: none; 
+}
+
+#portfolio-container .active:active{
+   background-color:#FF1351;color:#fff;
+    outline: 0;
+    box-shadow: none; 
+}
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+
+@media only screen and (max-width: 400px) {
+    
+    
+    .span4{
+        
+        height: 50px;
+        border: 0px solid red;
+        
+    }
+    .span4 img{
+        
+      height: 150px;
+        width: 150px;
+        text-align: center;
+        margin-left: 100px;
+        
+    }
+    #testimonial-slider .testimonial{
+        height: 650px;
+        
+    }
+      
+    ul li .post-comments{
+        
+        width: 150px;
+    }
+    
+}
+
+#contact{
+    background-color:#f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+}
+
+#contact .form-control{
+    border-radius: 0;
+    border:2px solid #1e1e1e;
+}
+
+#contact button{
+    border-radius:0;
+    border:2px solid #1e1e1e;
+}
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+@media (max-width: 768px) { 
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+    
+}
+
+
+
+body{
+    margin-top:20px;
+    background:#FDFDFD;
+}
+@media (min-width: 0) {
+    .g-mr-15 {
+        margin-right: 1.07143rem !important;
+    }
+}
+@media (min-width: 0){
+    .g-mt-3 {
+        margin-top: 0.21429rem !important;
+    }
+}
+
+.g-height-50 {
+    height: 50px;
+}
+
+.g-width-50 {
+    width: 50px !important;
+}
+
+@media (min-width: 0){
+    .g-pa-30 {
+        padding: 2.14286rem !important;
+    }
+}
+
+.g-bg-secondary {
+    background-color: #fafafa !important;
+}
+
+.u-shadow-v18 {
+    box-shadow: 0 5px 10px -6px rgba(0, 0, 0, 0.15);
+}
+
+.g-color-gray-dark-v4 {
+    color: #777 !important;
+}
+
+.g-font-size-12 {
+    font-size: 0.85714rem !important;
+}
+
+.media-comment {
+    margin-top:20px
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
